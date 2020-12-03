@@ -3,12 +3,13 @@ var score = 0;
 
 var userName = readlineSync.question("Enter your Name : ");
 console.log("Welcome " + userName);
+console.log("This is just to know how well do you know about me\nLet's get started");
 
 var AllQuestions = [{
   question :"Do you know my FullName? : " ,
   answer :"AinalaPrashanthReddy"},
   {question : "Where do I live? ", 
-   answer : "malkaram"},
+   answer : "hyderabad"},
   {question :"Favorate food item which I like? ", answer : "Chicken"},
    {question :"My favorate color? " , 
    answer : "black"}, 
@@ -34,3 +35,4 @@ for (var i=0; i<AllQuestions.length; i++){
 }
 
 console.log("Your Total score is : "+ score);
+console.log("Thankyou for your time!")
